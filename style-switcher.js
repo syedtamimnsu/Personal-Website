@@ -5,7 +5,7 @@ styleSwitcherToggler.addEventListener("click", () =>{
     document.querySelector(".style-switcher").classList.toggle("open");
 })
 
-//hide syle when screen will scroll
+//hide style when screen will scroll
 window.addEventListener("scroll", () =>{
     if(document.querySelector(".style-switcher").classList.contains("open")){
         //if styler switcher scrooled then close it
